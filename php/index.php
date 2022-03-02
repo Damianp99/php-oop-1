@@ -33,9 +33,27 @@ var_dump($third_movie);
 
 <body>
    <main class="container">
-      <div></div>
-      <div></div>
-      <div></div>
+      <div class="my-5">
+         <h1>Titolo: <?= $first_movie->title ?></h1>
+         <h5>Regista: <?= $first_movie->producer ?></h5>
+         <h5>Anno: <?= $first_movie->year ?></h5>
+         <h6>Genere: <?= $first_movie->genre ?></h6>
+         <p><strong>Trama:</strong> <?= $first_movie->plot ?></p>
+      </div>
+      <div class="my-5">
+         <h1>Titolo: <?= $second_movie->title ?></h1>
+         <h5>Regista: <?= $second_movie->producer ?></h5>
+         <h5>Anno: <?= $second_movie->year ?></h5>
+         <h6>Genere: <?= $second_movie->genre ?></h6>
+         <p><strong>Trama:</strong> <?= $second_movie->plot ?></p>
+      </div>
+      <div class="my-5">
+         <h1>Titolo: <?= $third_movie->title ?></h1>
+         <h5>Regista: <?= $third_movie->producer ?></h5>
+         <h5>Anno: <?= $third_movie->year ?></h5>
+         <h6>Genere: <?= $third_movie->genre ?></h6>
+         <p><strong>Trama:</strong> <?= $third_movie->plot ?></p>
+      </div>
    </main>
 </body>
 

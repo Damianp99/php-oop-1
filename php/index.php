@@ -8,8 +8,8 @@ metodi d'istanza che abbiamo visto stamattina e create un file index.php in cui:
 - vengono istanziati almeno due oggetti ‘Movie’ e stampati a schermo i valori delle relative proprietà
 */
 
-include '../data/index.php';
-include '../class/index.php';
+include '../data/plots.php';
+include '../class/Movie.php';
 $first_movie = new Movie('Il padrino', 'Francis Ford Coppola', '1972', 'Gangster', $plot1);
 $second_movie = new Movie('Dunkirk', 'Christopher Nolan', '2017', 'Guerra , Storico', $plot2);
 $third_movie = new Movie('Avatar', 'James Cameron', '2009', 'Fantascienza , Azione', $plot3);
